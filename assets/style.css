@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    padding: 0.5em;
+    margin:0.5em;
+    background-color: rgb(217, 211, 211);
+}
+
+
+.column {
+    margin: 2em;
+    border-radius: 0%;
+}
+
+#catDisplay img,
+#dogDisplay img {
+    height: 350px;
+    width: 400px;
+    border-radius: 7.5%;
+}
+
+.page-title {
+    margin-left: -100%;
+    color: white;
+    text-shadow: 3px 3px black;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+#dogProgress,
+#catProgress {
+    height: 40px;
+}
+
+.voteBtn{
+    font-size: 20px;
+}
+
+.voteBtn:hover {
+    background-color: yellow;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#dogScore{
+    background-color: hsl(348, 76%, 43%);
+    color:white;
+    font-size: x-large;
+}
+
+#catScore{
+    background-color: hsl(217, 74%, 40%);
+    color:white;
+    font-size: x-large;
+}
+
+#resetBtn{
+    height: 45px;
+    width: 80px;
+    font-size: large;
+}
+
+#resetBtn:hover {
+    background-color: yellow;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
